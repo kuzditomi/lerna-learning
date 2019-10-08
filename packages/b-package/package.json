@@ -1,4 +1,13 @@
 {
   "name": "b-package",
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "main": "dist/index",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "node-color-log": "2.2.0",
+    "typescript": "3.6.3"
+  }
 }

@@ -1,6 +1,11 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "bootstrap": "npx lerna bootstrap --hoist",
+    "build": "lerna run build",
+    "start": "lerna run start --scope=a-package"
+  },
   "devDependencies": {
     "lerna": "^3.16.4"
   }

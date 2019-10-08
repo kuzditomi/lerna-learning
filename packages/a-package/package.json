@@ -1,4 +1,11 @@
 {
   "name": "a-package",
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "scripts": {
+    "build": "echo 'building A package'",
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "b-package": "0.0.0"
+  }
 }
